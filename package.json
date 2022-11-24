@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-tutorial",
+  "version": "1.0.0",
+  "description": "Tailwind Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maristina-Hub/tailwind.git"
+  },
+  "keywords": [
+    "Tailwind"
+  ],
+  "author": "Chiamaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maristina-Hub/tailwind/issues"
+  },
+  "homepage": "https://github.com/Maristina-Hub/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
