@@ -6,3 +6,11 @@ module.exports = {
   },
   plugins: [],
 }
+
+primary: "#FF6363",
+        secondary: {
+          100: "#E2E2D5",
+          200: "#888883"
+        }
+        
+npx tailwind -i ./src/styles.css -o ./public/styles.css --watch
