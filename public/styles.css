@@ -515,16 +515,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.ml-2{
-  margin-left: 0.5rem;
 }
 
 .flex{
@@ -607,6 +607,11 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -620,4 +625,39 @@ video {
 .text-secondary-200{
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity));
+}
+
+.text-green-600{
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:text-red-600{
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
+  .md\:text-blue-600{
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:text-blue-600{
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235 / var(--tw-text-opacity));
+  }
 }
