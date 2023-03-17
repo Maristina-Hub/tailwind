@@ -14,3 +14,12 @@ primary: "#FF6363",
         }
         
 npx tailwind -i ./src/styles.css -o ./public/styles.css --watch
+
+
+npx create-react-app react-tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+
+ content: ["./src/**/*.{js,ts,jsx,tsx}"], (inside config file)
+ @tailwind base;
+@tailwind components;
+@tailwind utilities; (inside index.css file)
